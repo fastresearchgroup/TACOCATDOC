@@ -20,8 +20,8 @@ templates_path = ['_templates']
 exclude_patterns = []
 
 
-html_permalinks_icon = '<span>#</span>'
-html_theme = 'sphinxawesome_theme'
+html_theme = "sphinxawesome_theme"
+extensions = ["sphinxawesome_theme"]
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
