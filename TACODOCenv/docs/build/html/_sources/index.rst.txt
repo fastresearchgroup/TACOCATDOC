@@ -1,5 +1,6 @@
 TACODOC
 ===================================
+Documentation page for TACOCAT
 
 .. image:: /Images/TACOCATsymbol.png
 
