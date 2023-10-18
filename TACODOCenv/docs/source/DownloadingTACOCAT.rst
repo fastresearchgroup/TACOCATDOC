@@ -5,7 +5,7 @@ This page will walk you through gettings started with TACOCAT
 
 Before you begin
 ----------------
-Our perferred method of operating TACOCAT is through ANACONDA. 'Download ANACONDA here <https://tacodoc.readthedocs.io/en/latest/>'_.
+Our perferred method of operating TACOCAT is through ANACONDA. 'Download ANACONDA here <https://docs.anaconda.com/free/anaconda/install/>'_
 
 Cloning into TACOCAT
 --------------------
