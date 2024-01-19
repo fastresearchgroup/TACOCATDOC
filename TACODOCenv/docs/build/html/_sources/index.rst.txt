@@ -12,3 +12,4 @@ TACOCAT is an open source program that performs thermal hydraulic core calculati
    :caption: Contents:
 
    DownloadingTACOCAT
+   claddingThermophysicalProperties
