@@ -6,7 +6,7 @@ It should be used when calculating the Nusselt Number for smooth tubes.
 This correlation uses the hydraulic diameter, the Reynolds number, the Prandtl number, and the Nusselt number.
 For the Dittus-Boelter correlation, the Prandtl number should range 0.6 <=Pr<= 160.
 The Reynolds number shoud be greater than 10000 (ReDₕ > 10000).  
- It is dependent on the hydraulic diameter of the pipe.
+It is dependent on the hydraulic diameter of the pipe.
 The hydraulic diameter is used when a circular pipe is connected to a non-circular pipe. 
 The hydraulic diameter should not be used for a laminar flow because the fluid is governed by the geometry of the pipe.
 Because of this, the hydraulic diameter should be used with turbulent flow systems because the geometry of the fluid is not as important.
