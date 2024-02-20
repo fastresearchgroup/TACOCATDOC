@@ -26,7 +26,7 @@ For Turbulent flow, the friction factor is highly depended on the realtive rough
 
 The Gnielinski correlation is given as:
 .. math::
-    NuDₕ =\frac{(\frac{f}{8})(ReDₕ-1000)Pr}/{1+12.7((\frac{f}/{8})^{1/2}(Pr^{2/3}-1))}
+    NuDₕ = \frac{(\frac{f}{8})(ReDₕ-1000)Pr}/{1+12.7((\frac{f}/{8})^{1/2}(Pr^{2/3}-1))}
 
 
 
