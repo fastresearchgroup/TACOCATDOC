@@ -13,8 +13,8 @@ Because of this, the hydraulic diameter should be used with turbulent flow syste
 This also means that the Dittus-Boelter correlation should only be used for a turbulent flow system.
 
 The Dittus-Boelter correlation is given as:
-..math::
-    Nu=0.23ReDₕ ⁽⁰.⁸⁾ Pr ⁽⁰.⁴⁾ 
+.. math::
+    Nu=0.23ReDₕ^{0.8} Pr^{0.4} 
 
 The next Nusselt Number correlation that is implemented in TACOCAT is the Gnielinski correlation. This correlation is more intricate than the Dittus-Boelter correlation. 
 The Gnielinski correlation should be used to authentivate tubes that expereiences a large Reynolds number range. This correlation also covers pipe transitional areas.
@@ -25,8 +25,8 @@ The Darcy friction factor can be used for both laminar and turbulent flows. For 
 For Turbulent flow, the friction factor is highly depended on the realtive roughness. It will be independent of the Reynolds number if the Reynolds number becomes very large.
 
 The Gnielinski correlation is given as:
-..math::
-    NuDₕ =((f/8)(ReDₕ-1000)Pr)/(1+12.7(f/8)⁽¹/²⁾(Pr ⁽²/³⁾ -1))
+.. math::
+    NuDₕ =\frac{(\frac{f}{8})(ReDₕ-1000)Pr}/{1+12.7((\frac{f}/{8})^{1/2}(Pr^{2/3}-1))}
 
 
 
