@@ -14,6 +14,7 @@ This also means that the Dittus-Boelter correlation should only be used for a tu
 
 The Dittus-Boelter correlation is given as:
 .. math::
+
     Nu=0.23ReDₕ^{0.8} Pr^{0.4} 
 
 The next Nusselt Number correlation that is implemented in TACOCAT is the Gnielinski correlation. This correlation is more intricate than the Dittus-Boelter correlation. 
@@ -26,6 +27,7 @@ For Turbulent flow, the friction factor is highly depended on the realtive rough
 
 The Gnielinski correlation is given as:
 .. math::
+    
     NuDₕ = \frac{(\frac{f}{8})(ReDₕ-1000)Pr}/{1+12.7((\frac{f}/{8})^{1/2}(Pr^{2/3}-1))}
 
 
