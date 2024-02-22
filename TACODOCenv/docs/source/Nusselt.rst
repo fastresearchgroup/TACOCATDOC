@@ -13,6 +13,7 @@ Because of this, the hydraulic diameter should be used with turbulent flow syste
 This also means that the Dittus-Boelter correlation should only be used for a turbulent flow system.
 
 The Dittus-Boelter correlation is given as:
+
 .. math::
 
     Nu=0.23ReDₕ^{0.8} Pr^{0.4} 
@@ -26,6 +27,7 @@ The Darcy friction factor can be used for both laminar and turbulent flows. For 
 For Turbulent flow, the friction factor is highly depended on the realtive roughness. It will be independent of the Reynolds number if the Reynolds number becomes very large.
 
 The Gnielinski correlation is given as:
+
 .. math::
     
     NuDₕ = \frac{(\frac{f}{8})(ReDₕ-1000)Pr}/{1+12.7((\frac{f}/{8})^{1/2}(Pr^{2/3}-1))}
