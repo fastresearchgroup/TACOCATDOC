@@ -12,23 +12,27 @@ sys.path.append(os.path.abspath("_themes"))
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'TACODOC'
-copyright = '2022, Trevor Franklin'
+copyright = '2022, FAST reseach group'
 author = 'Trevor Franklin'
 release = '0.1'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+#extensions = []
 
-templates_path = ['_templates']
-exclude_patterns = ["_themes"]
+#templates_path = ['_templates']
+#exclude_patterns = ["_themes"]
 
 
-extensions = ["sphinxawesome_theme"]
-html_theme = "sphinxawesome_theme"
+#extensions = ["sphinxawesome_theme"]
+#html_theme = "sphinxawesome_theme"
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_static_path = ['_static']
+#html_static_path = ['_static']
+
+extensions =  ['sphinx_rtd_theme',]
+
+html_theme = "sphinx_rtd_theme"
