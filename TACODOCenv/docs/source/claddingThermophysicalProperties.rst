@@ -31,8 +31,8 @@ The following two graphs show the difference between the Thermal Conductivities 
 As seen when viewing both graphs, there is not much difference in the two graphs. 
 This is due to the Thermal Conductivities being averaged.
 It is assumed that if they are not averaged, a bigger difference would be seen when the graphs were compared. 
-In order to change the cladding material, the correlation needs to be manually in the TACOCAT_Read_in_File.py. 
-The cldding materials that are implemented into TACOCAT can be found in line 24 of the TACOCAT_Read_in_File.py file.
+In order to change the cladding material, the correlation needs to be manually changed in the TACOCAT_Read_in_File.py. 
+The cladding materials that are implemented into TACOCAT can be found in line 24 of the TACOCAT_Read_in_File.py file.
 
 .. image:: /Images/Figure2023-09-26153300-Graphite_381.png
 

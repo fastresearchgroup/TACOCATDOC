@@ -38,6 +38,8 @@ The Gnielinski correlation is given as:
     
     NuDₕ = \frac{(\frac{f}{8})(ReDₕ-1000)Pr}/{1+12.7((\frac{f}/{8})^{1/2}(Pr^{2/3}-1))}
 
+In order to change the Nusselt Number correlation, the correlation needs to be manually changed in the TACOCAT_Read_in_File.py. 
+The Nusselt Number correlations that are implemented into TACOCAT can be found in line 29 of the TACOCAT_Read_in_File.py file.
 
 
 References:
