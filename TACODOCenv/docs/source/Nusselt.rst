@@ -1,3 +1,9 @@
+Nusselt Number
+==============
+
+Theory
+------
+
 The Nusselt Number is a dimensionaless number that represents the temperature gradient and the heat transfer convection at the surface of the fluid. 
 TACOCAT will calculate the Nusselt Number by using the information that is provided is needed.
 The user will specify which geometry they will be working with. Currently, TACOCAT uses two different Nusselt Number correlations.
@@ -32,6 +38,26 @@ The Gnielinski correlation is given as:
     
     NuDₕ = \frac{(\frac{f}{8})(ReDₕ-1000)Pr}/{1+12.7((\frac{f}/{8})^{1/2}(Pr^{2/3}-1))}
 
+Switching Nusselt number correlations in TACOCAT
+-----------------------------------
+TACOCAT offers pre-defined Nusselt umber correlations that can be switched between in the input file.
+To switch between the different Nusselt number correlations, simply open up the input file and change string after :python:`Nusselt` to the desired correlation name.
+The following code block shows the Nusselt number section in the input file.
+
+..  code-block:: python
+
+    #Provide desired Nusselt Number Corrilation. Corrilations include: DittusBoelter, Gnilenski
+    Nusselt="DittusBoelter"
+
+The following chart shows the options for Nusselt number that are currently implemented.
+.. csv-table:: Nusselt number correlation options in TACOCAT
+    :align: center
+    :header: "Name","String in TACOCAT read in file","comments"
+    :widths: 15,15,15
+
+    "Dittus-Boelter","DittusBoelter","0.6 <=Pr<= 160; ReDₕ > 10000"
+    "Gnielinski","Gnielinki", "0.5 <= Pr <= 2000; 3000 <=Re<= 5*10^6"
+    
 
 
 References:
