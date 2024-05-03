@@ -30,7 +30,9 @@ Afterward, the new cladding materials file was added to the existing TACOCAT Sof
 The following two graphs show the difference between the Thermal Conductivities of Graphiet 384_1 and Zircaloy-2.
 As seen when viewing both graphs, there is not much difference in the two graphs. 
 This is due to the Thermal Conductivities being averaged.
-It is assumed that if they are not averaged, a bigger difference would be seen when the graphs were compared.
+It is assumed that if they are not averaged, a bigger difference would be seen when the graphs were compared. 
+In order to change the cladding material, the correlation needs to be manually changed in the TACOCAT_Read_in_File.py. 
+The cladding materials that are implemented into TACOCAT can be found in line 24 of the TACOCAT_Read_in_File.py file.
 
 .. image:: /Images/Figure2023-09-26153300-Graphite_381.png
 
