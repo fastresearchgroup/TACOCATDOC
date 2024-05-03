@@ -1,3 +1,9 @@
+Nusselt Number
+==============
+
+Theory
+------
+
 The Nusselt Number is a dimensionaless number that represents the temperature gradient and the heat transfer convection at the surface of the fluid. 
 TACOCAT will calculate the Nusselt Number by using the information that is provided is needed.
 The user will specify which geometry they will be working with. Currently, TACOCAT uses two different Nusselt Number correlations.
@@ -32,8 +38,6 @@ The Gnielinski correlation is given as:
     
     NuDₕ = \frac{(\frac{f}{8})(ReDₕ-1000)Pr}/{1+12.7((\frac{f}/{8})^{1/2}(Pr^{2/3}-1))}
 
-In order to change the correlation, the correlation needs to be changed in the TACOCAT_Read_In_File.py. 
-After this is done, TACOCAT.py can be run. This will produce the accurate answer based on the chosen Nusselt Number correlation.
 
 
 References:
