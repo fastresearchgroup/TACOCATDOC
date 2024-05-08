@@ -40,7 +40,7 @@ The Gnielinski correlation is given as:
 
 
 Switching Nusselt number correlations in TACOCAT
------------------------------------
+------------------------------------------------
 
 TACOCAT offers pre-defined Nusselt umber correlations that can be switched between in the input file.
 To switch between the different Nusselt number correlations, simply open up the input file and change string after :python:`Nusselt` to the desired correlation name.
