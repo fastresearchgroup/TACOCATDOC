@@ -22,7 +22,7 @@ The Dittus-Boelter correlation is given as:
 
 .. math::
 
-    Nu=0.23ReDₕ^{0.8} Pr^{0.4} 
+    Nu=0.23Re^{0.8} Pr^{0.4} 
 
 The next Nusselt Number correlation that is implemented in TACOCAT is the Gnielinski correlation. This correlation is more intricate than the Dittus-Boelter correlation. 
 The Gnielinski correlation should be used to authentivate tubes that expereiences a large Reynolds number range. This correlation also covers pipe transitional areas.
@@ -36,7 +36,7 @@ The Gnielinski correlation is given as:
 
 .. math::
     
-    NuDₕ = \frac{(\frac{f}{8})(ReDₕ-1000)Pr}/{1+12.7((\frac{f}/{8})^{1/2}(Pr^{2/3}-1))}
+    Nu = \frac{(\frac{f}{8})(Re-1000)Pr}/{1+12.7((\frac{f}/{8})^{1/2}(Pr^{2/3}-1))}
 
 
 Switching Nusselt number correlations in TACOCAT
